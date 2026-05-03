@@ -1,0 +1,35 @@
+# Claude Code — never read these paths
+.venv/
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+
+data/temp_dataset/
+data/*.pkl
+data/*.tar.bz2
+data/*.npy
+
+checkpoint/
+training/
+inference/
+logs/
+runs/
+wandb/
+outputs/
+figures/
+
+assets/
+
+# Binary / large file extensions
+*.pkl
+*.pt
+*.pth
+*.npy
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.tar
+*.bz2
+*.mp4
+*.gif
